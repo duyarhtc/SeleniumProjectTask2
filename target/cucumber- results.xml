@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="59.031183">
+<testcase classname="E-commerce" name="1 - Add product to basket with user login" time="59.031183">
+<system-out><![CDATA[Given I initialize chrome driver............................................passed
+When I go to "https://www.trendyol.com" url.................................passed
+Then I see home page........................................................passed
+When I focus homepage popup image element...................................passed
+When I click element: homepage popUp close index: 1.........................passed
+When I focus sign in title element..........................................passed
+When I click element: login button index: 1.................................passed
+Then I see login page.......................................................passed
+When I enter "testtrendyol100@gmail.com" text to email address bar text area.passed
+Then I enter "testtrendyol100" text to password bar text area...............passed
+When I click element: submit login button index: 1..........................passed
+Then I see home page........................................................passed
+When I wait search input box element 5 seconds..............................passed
+When I focus search input box element.......................................passed
+When I enter "Oyuncu Bilgisayarı" text to search input box text area........passed
+Then I click "ENTER" keyboard button........................................passed
+And I see search results page...............................................passed
+And I wait for 3 seconds....................................................passed
+When I focus first product element..........................................passed
+When I click element: first product index: 1................................passed
+When I wait for 3 seconds...................................................passed
+When I  switch to tab.......................................................passed
+Then I see product new tab page.............................................passed
+When I wait add cart button element 2 seconds...............................passed
+When I click element: add cart button index: 1..............................passed
+When I click element: my cart area index: 1.................................passed
+When I wait for 5 seconds...................................................passed
+Then I see my cart page.....................................................passed
+And I  check cart info header text element1 and info empty cart element2 in Cart.passed
+]]></system-out>
+</testcase>
+</testsuite>

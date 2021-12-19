@@ -1,0 +1,624 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2572415800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I initialize chrome driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 13
+                }
+              ],
+              "location": "MySteps.initializeChromeDriver(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1630630700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to \"https://www.trendyol.com\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.trendyol.com",
+                  "offset": 9
+                }
+              ],
+              "location": "MySteps.gotoURL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 871400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 6
+                }
+              ],
+              "location": "MySteps.seePage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T22:00:40.474Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10578200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MySteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "1 - Add product to basket with user login",
+        "description": "",
+        "id": "e-commerce;1---add-product-to-basket-with-user-login",
+        "after": [
+          {
+            "result": {
+              "duration": 946966500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MySteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4386052100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I focus homepage popup image element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "homepage popup image",
+                  "offset": 8
+                }
+              ],
+              "location": "MySteps.mouseHover(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127705400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click element: homepage popUp close index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "homepage popUp close",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 45
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4184995700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I focus sign in title element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sign in title",
+                  "offset": 8
+                }
+              ],
+              "location": "MySteps.mouseHover(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1269649900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click element: login button index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login button",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1250200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I see login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 6
+                }
+              ],
+              "location": "MySteps.seePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4407919900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"testtrendyol100@gmail.com\" text to email address bar text area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtrendyol100@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "email address bar",
+                  "offset": 44
+                }
+              ],
+              "location": "MySteps.enterText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4330120600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter \"testtrendyol100\" text to password bar text area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtrendyol100",
+                  "offset": 9
+                },
+                {
+                  "val": "password bar",
+                  "offset": 34
+                }
+              ],
+              "location": "MySteps.enterText(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100415700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click element: submit login button index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submit login button",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 44
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I see home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 6
+                }
+              ],
+              "location": "MySteps.seePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2023930700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I wait search input box element 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search input box",
+                  "offset": 7
+                },
+                {
+                  "val": "5",
+                  "offset": 32
+                }
+              ],
+              "location": "MySteps.waitElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4529511900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I focus search input box element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search input box",
+                  "offset": 8
+                }
+              ],
+              "location": "MySteps.mouseHover(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4343811800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter \"Oyuncu Bilgisayarı\" text to search input box text area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oyuncu Bilgisayarı",
+                  "offset": 9
+                },
+                {
+                  "val": "search input box",
+                  "offset": 37
+                }
+              ],
+              "location": "MySteps.enterText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1379030200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click \"ENTER\" keyboard button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ENTER",
+                  "offset": 9
+                }
+              ],
+              "location": "MySteps.clickKeyboard(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 644700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see search results page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search results",
+                  "offset": 6
+                }
+              ],
+              "location": "MySteps.seePage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001437100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "MySteps.waitForNSeconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4261177300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I focus first product element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "first product",
+                  "offset": 8
+                }
+              ],
+              "location": "MySteps.mouseHover(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158000800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click element: first product index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "first product",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 38
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015328300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "MySteps.waitForNSeconds(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53662600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I  switch to tab",
+            "match": {
+              "location": "MySteps.SwithTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2702900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I see product new tab page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "product new tab",
+                  "offset": 6
+                }
+              ],
+              "location": "MySteps.seePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2055863400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I wait add cart button element 2 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add cart button",
+                  "offset": 7
+                },
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "MySteps.waitElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286106800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click element: add cart button index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add cart button",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 40
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 693084000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click element: my cart area index: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "my cart area",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "MySteps.clickElement(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5011633600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "MySteps.waitForNSeconds(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2433700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I see my cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "my cart",
+                  "offset": 6
+                }
+              ],
+              "location": "MySteps.seePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4164905300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I  check cart info header text element1 and info empty cart element2 in Cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cart info header text",
+                  "offset": 9
+                },
+                {
+                  "val": "info empty cart",
+                  "offset": 44
+                }
+              ],
+              "location": "MySteps.CheckMyCart(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HTC"
+          }
+        ]
+      }
+    ],
+    "name": "E-commerce",
+    "description": "",
+    "id": "e-commerce",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/e-commerce.feature",
+    "tags": []
+  }
+]

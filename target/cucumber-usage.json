@@ -1,0 +1,416 @@
+[
+  {
+    "source": "^I initialize (chrome|firefox) driver$",
+    "steps": [
+      {
+        "name": "I initialize chrome driver",
+        "aggregatedDurations": {
+          "median": 2.5724158,
+          "average": 2.572415800
+        },
+        "durations": [
+          {
+            "duration": 2.5724158,
+            "location": "file:src/test/resources/features/e-commerce.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I go to \"([^\"]*)\" url$",
+    "steps": [
+      {
+        "name": "I go to \"https://www.trendyol.com\" url",
+        "aggregatedDurations": {
+          "median": 1.6306307,
+          "average": 1.630630700
+        },
+        "durations": [
+          {
+            "duration": 1.6306307,
+            "location": "file:src/test/resources/features/e-commerce.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see (.*) page$",
+    "steps": [
+      {
+        "name": "I see home page",
+        "aggregatedDurations": {
+          "median": 0.000651950,
+          "average": 0.000651950
+        },
+        "durations": [
+          {
+            "duration": 0.0008714,
+            "location": "file:src/test/resources/features/e-commerce.feature:6"
+          },
+          {
+            "duration": 0.0004325,
+            "location": "file:src/test/resources/features/e-commerce.feature:19"
+          }
+        ]
+      },
+      {
+        "name": "I see login page",
+        "aggregatedDurations": {
+          "median": 0.0012502,
+          "average": 0.001250200
+        },
+        "durations": [
+          {
+            "duration": 0.0012502,
+            "location": "file:src/test/resources/features/e-commerce.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I see search results page",
+        "aggregatedDurations": {
+          "median": 0.0006447,
+          "average": 0.000644700
+        },
+        "durations": [
+          {
+            "duration": 0.0006447,
+            "location": "file:src/test/resources/features/e-commerce.feature:25"
+          }
+        ]
+      },
+      {
+        "name": "I see product new tab page",
+        "aggregatedDurations": {
+          "median": 0.0027029,
+          "average": 0.002702900
+        },
+        "durations": [
+          {
+            "duration": 0.0027029,
+            "location": "file:src/test/resources/features/e-commerce.feature:33"
+          }
+        ]
+      },
+      {
+        "name": "I see my cart page",
+        "aggregatedDurations": {
+          "median": 0.0024337,
+          "average": 0.002433700
+        },
+        "durations": [
+          {
+            "duration": 0.0024337,
+            "location": "file:src/test/resources/features/e-commerce.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?focus (.*) element$",
+    "steps": [
+      {
+        "name": "I focus homepage popup image element",
+        "aggregatedDurations": {
+          "median": 4.3860521,
+          "average": 4.386052100
+        },
+        "durations": [
+          {
+            "duration": 4.3860521,
+            "location": "file:src/test/resources/features/e-commerce.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I focus sign in title element",
+        "aggregatedDurations": {
+          "median": 4.1849957,
+          "average": 4.184995700
+        },
+        "durations": [
+          {
+            "duration": 4.1849957,
+            "location": "file:src/test/resources/features/e-commerce.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I focus search input box element",
+        "aggregatedDurations": {
+          "median": 4.5295119,
+          "average": 4.529511900
+        },
+        "durations": [
+          {
+            "duration": 4.5295119,
+            "location": "file:src/test/resources/features/e-commerce.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I focus first product element",
+        "aggregatedDurations": {
+          "median": 4.2611773,
+          "average": 4.261177300
+        },
+        "durations": [
+          {
+            "duration": 4.2611773,
+            "location": "file:src/test/resources/features/e-commerce.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?click element: (\\w+(?: \\w+)*) index: (\\d+)$",
+    "steps": [
+      {
+        "name": "I click element: homepage popUp close index: 1",
+        "aggregatedDurations": {
+          "median": 0.1277054,
+          "average": 0.127705400
+        },
+        "durations": [
+          {
+            "duration": 0.1277054,
+            "location": "file:src/test/resources/features/e-commerce.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "I click element: login button index: 1",
+        "aggregatedDurations": {
+          "median": 1.2696499,
+          "average": 1.269649900
+        },
+        "durations": [
+          {
+            "duration": 1.2696499,
+            "location": "file:src/test/resources/features/e-commerce.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "I click element: submit login button index: 1",
+        "aggregatedDurations": {
+          "median": 0.1004157,
+          "average": 0.100415700
+        },
+        "durations": [
+          {
+            "duration": 0.1004157,
+            "location": "file:src/test/resources/features/e-commerce.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "I click element: first product index: 1",
+        "aggregatedDurations": {
+          "median": 0.1580008,
+          "average": 0.158000800
+        },
+        "durations": [
+          {
+            "duration": 0.1580008,
+            "location": "file:src/test/resources/features/e-commerce.feature:30"
+          }
+        ]
+      },
+      {
+        "name": "I click element: add cart button index: 1",
+        "aggregatedDurations": {
+          "median": 0.2861068,
+          "average": 0.286106800
+        },
+        "durations": [
+          {
+            "duration": 0.2861068,
+            "location": "file:src/test/resources/features/e-commerce.feature:37"
+          }
+        ]
+      },
+      {
+        "name": "I click element: my cart area index: 1",
+        "aggregatedDurations": {
+          "median": 0.693084,
+          "average": 0.693084000
+        },
+        "durations": [
+          {
+            "duration": 0.693084,
+            "location": "file:src/test/resources/features/e-commerce.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter \"([^\"]*)\" text to (.*) text area$",
+    "steps": [
+      {
+        "name": "I enter \"testtrendyol100@gmail.com\" text to email address bar text area",
+        "aggregatedDurations": {
+          "median": 4.4079199,
+          "average": 4.407919900
+        },
+        "durations": [
+          {
+            "duration": 4.4079199,
+            "location": "file:src/test/resources/features/e-commerce.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"testtrendyol100\" text to password bar text area",
+        "aggregatedDurations": {
+          "median": 4.3301206,
+          "average": 4.330120600
+        },
+        "durations": [
+          {
+            "duration": 4.3301206,
+            "location": "file:src/test/resources/features/e-commerce.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Oyuncu Bilgisayarı\" text to search input box text area",
+        "aggregatedDurations": {
+          "median": 4.3438118,
+          "average": 4.343811800
+        },
+        "durations": [
+          {
+            "duration": 4.3438118,
+            "location": "file:src/test/resources/features/e-commerce.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I wait (.*) element (\\d+) seconds$",
+    "steps": [
+      {
+        "name": "I wait search input box element 5 seconds",
+        "aggregatedDurations": {
+          "median": 2.0239307,
+          "average": 2.023930700
+        },
+        "durations": [
+          {
+            "duration": 2.0239307,
+            "location": "file:src/test/resources/features/e-commerce.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I wait add cart button element 2 seconds",
+        "aggregatedDurations": {
+          "median": 2.0558634,
+          "average": 2.055863400
+        },
+        "durations": [
+          {
+            "duration": 2.0558634,
+            "location": "file:src/test/resources/features/e-commerce.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click \"([^\"]*)\" keyboard button$",
+    "steps": [
+      {
+        "name": "I click \"ENTER\" keyboard button",
+        "aggregatedDurations": {
+          "median": 1.3790302,
+          "average": 1.379030200
+        },
+        "durations": [
+          {
+            "duration": 1.3790302,
+            "location": "file:src/test/resources/features/e-commerce.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?wait for (\\d+) seconds?$",
+    "steps": [
+      {
+        "name": "I wait for 3 seconds",
+        "aggregatedDurations": {
+          "median": 3.008382700,
+          "average": 3.008382700
+        },
+        "durations": [
+          {
+            "duration": 3.0014371,
+            "location": "file:src/test/resources/features/e-commerce.feature:26"
+          },
+          {
+            "duration": 3.0153283,
+            "location": "file:src/test/resources/features/e-commerce.feature:31"
+          }
+        ]
+      },
+      {
+        "name": "I wait for 5 seconds",
+        "aggregatedDurations": {
+          "median": 5.0116336,
+          "average": 5.011633600
+        },
+        "durations": [
+          {
+            "duration": 5.0116336,
+            "location": "file:src/test/resources/features/e-commerce.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )? switch to tab$",
+    "steps": [
+      {
+        "name": "I  switch to tab",
+        "aggregatedDurations": {
+          "median": 0.0536626,
+          "average": 0.053662600
+        },
+        "durations": [
+          {
+            "duration": 0.0536626,
+            "location": "file:src/test/resources/features/e-commerce.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )? check (\\w+(?: \\w+)*) element1 and (\\w+(?: \\w+)*) element2 in Cart$",
+    "steps": [
+      {
+        "name": "I  check cart info header text element1 and info empty cart element2 in Cart",
+        "aggregatedDurations": {
+          "median": 4.1649053,
+          "average": 4.164905300
+        },
+        "durations": [
+          {
+            "duration": 4.1649053,
+            "location": "file:src/test/resources/features/e-commerce.feature:41"
+          }
+        ]
+      }
+    ]
+  }
+]
