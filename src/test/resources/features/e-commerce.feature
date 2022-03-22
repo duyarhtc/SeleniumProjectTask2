@@ -2,50 +2,15 @@ Feature: E-commerce
 
   Background:
     Given I initialize chrome driver
-    When I go to "https://useinsider.com/" url
+    When I go to "https://www.trendyol.com" url
     Then I see home page
-    And I wait for 5 seconds
 
   @HTC
-  Scenario: Start Full Test
-
-    When I check home page
-    When I click element: homepage allow cookies index: 1
-    When I click element in homepage menu in More option
-    And I wait for 5 seconds
-    When I click element: homepage menu in career index: 1
-    Then I see career page
-    And I wait for 2 seconds
-
-
-    When I check careerPage seeAllTeamsButton in page index: 1
-    When I check careerPage locationArea in page index: 1
-    When I check careerPage lifeAtInsiderArea in page index: 1
-    When I wait for 3 seconds
-
-
-
-    When I scroollPage for  element: careerPage seeAllTeamsButton , 1 and 0 - 2500
-    When I click element: careerPage seeAllTeamsButton index: 1
-    When I scroollPage for  element: careerPage qualityAssuranceArea , 1 and 0 - 2800
-    When I click element: careerPage qualityAssuranceArea index: 1
-
-
-
-
-
-    #When I click element: careerPage seeAllTeamsButton index: 1
-
-
-
-
-
-
-
-
-
+  Scenario: 1 - Add product to basket with user login
+    When I focus homepage popup image element
+    When I click element: homepage popUp close index: 1
     When I focus sign in title element
-
+    When I click element: login button index: 1
     Then I see login page
 
     When I enter "testtrendyol100@gmail.com" text to email address bar text area
